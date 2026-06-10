@@ -20,7 +20,7 @@ const Product = () => {
                     <FaStar className='text-yellow-300' />
                     <FaStar  />
                     <FaStar />
-                    <h3>(120)</h3>
+                    <h3>(140)</h3>
            </div>
            <div className='flex flex-row items-center px-3.5 gap-1 font-medium' >
            <LiaRupeeSignSolid className='font-medium'/>
@@ -31,7 +31,7 @@ const Product = () => {
            </div>
 
            <div className='m-2 h-10 w-85 bg-amber-400 flex items-center justify-center font-medium border rounded'> 
-              ADD TO CART
+              ADD TO CART 
            </div>
   
        
