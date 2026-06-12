@@ -5,7 +5,7 @@ import { LiaRupeeSignSolid } from "react-icons/lia";
 const Product = () => {
   return (
 <>
-    <div className='p-10 grid grid-cols-4'>
+    <div className='p-10 grid grid-cols-4 gap-5'>
       <div className="h-96 w-96 px-3 border rounded">
         <div>
            <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png" alt="" className='h-40 w-full object-contain' />
@@ -33,6 +33,8 @@ const Product = () => {
               ADD TO CART KRO
           </div>
       </div>
+
+      
     </div>
 </>
   )
