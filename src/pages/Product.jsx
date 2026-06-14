@@ -66,9 +66,9 @@ const Product = () => {
 
         <div
   key={product.id}
-  className="h-[450px] border rounded-lg p-4 flex flex-col shadow-md"
+  className="h-[450px] border rounded-lg p-3 flex flex-col shadow-md"
 >
-  {/* Image */}
+
   <div className="h-40">
     <img
       src={product.image}
@@ -77,33 +77,32 @@ const Product = () => {
     />
   </div>
 
-  {/* Content */}
+
   <div className="flex-1 flex flex-col mt-3">
 
-    {/* Title */}
+  
     <h3 className="font-semibold line-clamp-2">
       {product.title}
     </h3>
 
-    {/* Rating */}
+    
     <div className="flex items-center gap-1 mt-2">
       <span>{product.rating.rate}</span>
       <FaStar className="text-yellow-400" />
       <span>({product.rating.count})</span>
     </div>
 
-    {/* Price */}
+  
     <div className="flex items-center mt-2">
       <LiaRupeeSignSolid />
       <span>{Math.round(product.price * 100)}</span>
     </div>
 
-    {/* Description */}
     <p className="text-sm text-gray-600 mt-2 line-clamp-3">
       {product.description}
     </p>
 
-    {/* Button always bottom */}
+  
     <button
       className="
       mt-auto
